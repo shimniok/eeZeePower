@@ -149,12 +149,13 @@
 <wire x1="18.796" y1="11.557" x2="0" y2="11.557" width="0" layer="20"/>
 <wire x1="0" y1="11.557" x2="0" y2="0" width="0" layer="20"/>
 <text x="10.541" y="8.636" size="1.016" layer="27" font="vector" rot="R90">VU</text>
-<text x="5.207" y="1.778" size="1.27" layer="27" font="vector">eeZee Power</text>
-<text x="5.207" y="0.508" size="1.016" layer="21" font="vector">bot-thoughts.com</text>
-<text x="19.685" y="1.397" size="0.8128" layer="21" font="vector" rot="R90">R0.5</text>
+<text x="4.953" y="1.651" size="1.27" layer="27" font="vector">eeZee Power</text>
+<text x="4.953" y="0.508" size="1.016" layer="21" font="vector">bot-thoughts.com</text>
+<text x="19.939" y="4.318" size="0.8128" layer="21" font="vector" rot="R90">R0.5</text>
 <text x="11.176" y="7.493" size="1.016" layer="27" font="vector" rot="R180">VCC</text>
 <text x="11.176" y="4.953" size="1.016" layer="27" font="vector" rot="R180">GND</text>
 <text x="18.669" y="10.795" size="1.016" layer="27" font="vector" rot="R270">3V3</text>
+<text x="17.907" y="1.778" size="1.27" layer="27" font="vector">μB</text>
 </plain>
 <libraries>
 <library name="SparkFun">
