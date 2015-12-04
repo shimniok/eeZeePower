@@ -15281,7 +15281,7 @@ type 0309, grid 2.5 mm</description>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C4" library="rcl" deviceset="CPOL-US" device="SMCB" value="100uF"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C1206" value="10uF"/>
 <part name="FRAME1" library="mes" deviceset="LETTER_L" device=""/>
 <part name="JP3" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-S"/>

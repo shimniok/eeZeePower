@@ -2711,9 +2711,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C2" library="rcl" package="C0603" value="0.1uF" x="10.033" y="1.524" smashed="yes" rot="MR0"/>
 <element name="C4" library="rcl" package="SMC_B" value="100uF" x="14.605" y="5.334" smashed="yes" rot="R270"/>
-<element name="R1" library="resistor" package="R0603" value="" x="6.604" y="10.16" smashed="yes">
-<attribute name="VALUE" x="5.715" y="8.128" size="1.27" layer="27"/>
-</element>
+<element name="R1" library="resistor" package="R0603" value="330" x="6.604" y="10.16" smashed="yes"/>
 <element name="C1" library="rcl" package="C1206" value="10uF" x="14.224" y="1.778" smashed="yes" rot="MR180"/>
 <element name="JP3" library="pinhead-2" package="1X02-S" value="" x="12.065" y="5.715" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="15.24" y="8.255" size="1.27" layer="28" rot="MR270"/>
