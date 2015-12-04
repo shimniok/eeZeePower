@@ -2468,14 +2468,9 @@ chip</description>
 </package>
 </packages>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="bt_electromech">
+<description>&lt;b&gt;Electromechanical devices&lt;/b&gt;
+&lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
 <packages>
 <package name="USB-MICROB">
 <description>Micro USB Package</description>
@@ -2513,10 +2508,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
 <smd name="MT1" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
 <smd name="MT2" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<text x="-1.6" y="-0.35" size="0.762" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.762" layer="27">&gt;VALUE</text>
-<smd name="P$1" x="-1.27" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="P$2" x="1.27" y="0" dx="1.9" dy="1.9" layer="1"/>
+<text x="0" y="-2.45" size="0.762" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.005" y="3.525" size="0.762" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="MNT3" x="-1.27" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="MNT4" x="1.27" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="MT3" x="-3.1" y="2.55" dx="2.1" dy="1.6" layer="1"/>
+<smd name="MT4" x="3.1" y="2.55" dx="2.1" dy="1.6" layer="1"/>
 </package>
 </packages>
 </library>
@@ -2724,9 +2721,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP4" library="pinhead-2" package="1X02-S" value="" x="17.145" y="5.715" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="20.32" y="8.255" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="JP1" library="SparkFun-Connectors" package="USB-MICROB" value="USB-MICROB" x="1.524" y="5.715" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="CONN-09505" x="1.524" y="5.715" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
+<element name="JP1" library="bt_electromech" package="USB-MICROB" value="USB-MICROB" x="1.524" y="5.715" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -2762,8 +2757,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP4" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="JP1" pad="GND"/>
-<contactref element="JP1" pad="MT2"/>
-<contactref element="JP1" pad="MT1"/>
 <wire x1="9.183" y1="1.524" x2="8.382" y2="1.524" width="0.6096" layer="16"/>
 <wire x1="15.624" y1="1.778" x2="17.399" y2="1.778" width="0.6096" layer="16"/>
 <via x="8.382" y="1.524" extent="1-16" drill="0.3302"/>
@@ -2771,6 +2764,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="7.7978" y1="8.0264" x2="8.4074" y2="8.0264" width="0.6096" layer="16"/>
 <wire x1="8.4074" y1="8.0264" x2="9.017" y2="8.763" width="0.6096" layer="16"/>
 <via x="9.017" y="8.763" extent="1-16" drill="0.3302"/>
+<contactref element="JP1" pad="MT2"/>
+<contactref element="JP1" pad="MT3"/>
+<contactref element="JP1" pad="MT4"/>
+<contactref element="JP1" pad="MT1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="2"/>
