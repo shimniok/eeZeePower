@@ -149,13 +149,12 @@
 <wire x1="18.796" y1="11.557" x2="0" y2="11.557" width="0" layer="20"/>
 <wire x1="0" y1="11.557" x2="0" y2="0" width="0" layer="20"/>
 <text x="10.541" y="8.636" size="1.016" layer="27" font="vector" rot="R90">VU</text>
-<text x="5.334" y="1.651" size="1.27" layer="27" font="vector">eeZee Power</text>
+<text x="5.334" y="1.651" size="1.27" layer="27" font="vector">eeZeePowerμB</text>
 <text x="5.334" y="0.508" size="1.016" layer="21" font="vector">bot-thoughts.com</text>
 <text x="19.939" y="4.318" size="0.8128" layer="21" font="vector" rot="R90">R0.6</text>
 <text x="11.176" y="7.493" size="1.016" layer="27" font="vector" rot="R180">VCC</text>
 <text x="11.176" y="4.953" size="1.016" layer="27" font="vector" rot="R180">GND</text>
 <text x="18.669" y="10.795" size="1.016" layer="27" font="vector" rot="R270">3V3</text>
-<text x="17.907" y="1.778" size="1.27" layer="27" font="vector">μB</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -2752,9 +2751,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="JP1" pad="GND"/>
 <wire x1="9.183" y1="1.524" x2="8.382" y2="1.524" width="0.6096" layer="16"/>
-<wire x1="15.624" y1="1.778" x2="17.399" y2="1.778" width="0.6096" layer="16"/>
+<wire x1="15.624" y1="1.778" x2="16.764" y2="1.778" width="0.6096" layer="16"/>
 <via x="8.382" y="1.524" extent="1-16" drill="0.3302"/>
-<via x="17.399" y="1.778" extent="1-16" drill="0.3302"/>
+<via x="16.764" y="1.778" extent="1-16" drill="0.3302"/>
 <wire x1="7.7978" y1="8.0264" x2="8.4074" y2="8.0264" width="0.6096" layer="16"/>
 <wire x1="8.4074" y1="8.0264" x2="9.017" y2="8.763" width="0.6096" layer="16"/>
 <via x="9.017" y="8.763" extent="1-16" drill="0.3302"/>
