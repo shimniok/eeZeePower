@@ -94,8 +94,6 @@ jumper across the VU and center pins of the 3-pin header.
 
 Changes to Rev 0.5 vs. Rev 0.4:
 
-  * Vin MAX = 6V
-  * Vin MIN = 3.3V + 1.2V @ 800mA
   * All capacitors are rated 25V or higher
   * Integrated two-layer copper heatsinks with thermal vias
 
