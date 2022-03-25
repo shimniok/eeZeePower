@@ -15273,7 +15273,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="3.4" y1="2.82" x2="3.4" y2="-1.55" width="0.127" layer="51"/>
 <wire x1="3.4" y1="-1.55" x2="3.4" y2="-2.18" width="0.127" layer="51"/>
 <wire x1="-3.4" y1="-1.55" x2="3.4" y2="-1.55" width="0.127" layer="51"/>
-<wire x1="3.4" y1="1.43" x2="3.4" y2="2.01" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="1.43" x2="3.4" y2="1.51" width="0.2032" layer="21"/>
 <wire x1="-2.2" y1="1.42" x2="2.2" y2="1.42" width="0.127" layer="51"/>
 <wire x1="2.2" y1="1.42" x2="2.2" y2="2.82" width="0.127" layer="51"/>
 <wire x1="-2.2" y1="1.42" x2="-2.2" y2="2.82" width="0.127" layer="51"/>
@@ -15292,11 +15292,11 @@ type 0309, grid 2.5 mm</description>
 <smd name="D+" x="0" y="3.16" dx="2.15" dy="0.38" layer="1" rot="R90"/>
 <smd name="ID" x="0.65" y="3.16" dx="2.15" dy="0.38" layer="1" rot="R90"/>
 <text x="0" y="-2.5" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<wire x1="-3.39" y1="1.43" x2="-3.39" y2="2.01" width="0.2032" layer="21"/>
-<text x="0" y="4.5" size="0.8128" layer="25" align="bottom-center">UNVERIFIED!</text>
+<wire x1="-3.39" y1="1.43" x2="-3.39" y2="1.51" width="0.2032" layer="21"/>
+<text x="0" y="-3.9" size="0.8128" layer="25" align="bottom-center">UNVERIFIED!</text>
 <wire x1="-3.4" y1="-1.55" x2="3.4" y2="-1.55" width="0.2032" layer="21"/>
-<smd name="SHIELD5" x="-1.4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="SHIELD6" x="1.4" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SHIELD5" x="-1.4" y="0" dx="1.1" dy="1.1" layer="1"/>
+<smd name="SHIELD6" x="1.4" y="0" dx="1.1" dy="1.1" layer="1"/>
 <smd name="SHIELD1" x="-3.2" y="2.55" dx="2" dy="1.6" layer="1"/>
 <smd name="SHIELD2" x="3.2" y="2.55" dx="2" dy="1.6" layer="1"/>
 </package>
